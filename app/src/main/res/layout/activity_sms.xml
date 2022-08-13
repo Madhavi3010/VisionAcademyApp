@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".sms">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give Your Feedback on 9763915137"
+        android:textColor="#4CC4FA"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_margin="@dimen/title_size"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:hint="   Enter 9763915137 Number"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:background="@android:drawable/editbox_background"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sms"
+        android:hint="   Enter Message"
+        android:padding="12dp"
+        android:minLines="6"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendSms"
+        android:text="Send Feedback"
+        android:layout_marginTop="32dp"/>
+
+
+
+
+</LinearLayout>

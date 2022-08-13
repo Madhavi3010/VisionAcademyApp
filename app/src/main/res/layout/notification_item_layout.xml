@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="#fff"
+                android:src="@drawable/small"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VISION ACADEMY"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/titleColor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date : "
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/textColor"/>
+
+                    <TextView
+                        android:id="@+id/dateNotify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15 aug 2020 "
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time : "
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/textColor"/>
+
+                    <TextView
+                        android:id="@+id/timeNotify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00 "
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/textColor"/>
+
+                    <ImageView
+                        android:id="@+id/copyNotification"
+                        android:layout_marginLeft="@dimen/title_size"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_copy"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/NotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20sp"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/NotificationContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"/>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

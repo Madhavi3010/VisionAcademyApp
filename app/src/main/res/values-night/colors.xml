@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#FFC107</color>
+
+    <color name="textColor">#FAF9F8</color>
+    <color name="titleColor">@color/ic_launcher_background</color>
+    <color name="darkColor">#FBF9F9</color>
+    <color name="grey">#EDECEC</color>
+    <color name="grey1">#FBF9F9</color>
+    <color name="grey2">#C3D6D6D6</color>
+    <color name="background">#070707</color>
+    <color name="background1">#FA9A21</color>
+
+    <color name="present">#1BF423</color>
+    <color name="absent">#F86131</color>
+    <color name="normal">#FAF9F6</color>
+
+    <color name="red">#F80937</color>
+
+
+
+
+</resources>

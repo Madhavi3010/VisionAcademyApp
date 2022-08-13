@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/title_size"
+            android:text="CONTACT US"
+            android:textColor="#FF9800"
+            android:textSize="@dimen/title_size2"
+            android:textStyle="bold">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="38dp"
+            android:layout_margin="@dimen/text_margin"
+            android:src="@drawable/ic_address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="16dp"
+            android:text="Ajinkya Plaza,Ajinkya Colony,Near Radhika Nursing Home,Powai Naka,Satara-415-002"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="37dp"
+                android:layout_margin="@dimen/text_margin"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_margin="@dimen/text_margin"
+                android:textSize="18dp"
+                android:text="+91 9763915137                                                        +91 8888615137"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="39dp"
+                android:layout_margin="@dimen/text_margin"
+                android:src="@drawable/ic_gmail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="visionacademy705@gmail.com"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="     LOCATION :"
+                android:textColor="#FF5722"
+                android:textSize="@dimen/title_size2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_margin="@dimen/text_margin"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/map1"
+                android:layout_width="259dp"
+                android:layout_height="99dp"
+                android:src="@drawable/google">
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="355dp"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/text_size0"
+            android:background="@color/grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="    MONITOR OUR PUBLIC PRIVATE LIVES"
+                android:textColor="#03A9F4"
+                android:textSize="@dimen/title_size2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/text_margin"
+            android:padding="11dp">
+
+
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_instagram" />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_twitter" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

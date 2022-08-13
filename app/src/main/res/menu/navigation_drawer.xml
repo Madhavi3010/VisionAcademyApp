@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Student">
+
+        <menu>
+            <item
+                android:id="@+id/navigation_video"
+                android:icon="@drawable/ic_video_lecture"
+                android:title="Video Lectures" />
+
+            <item
+                android:id="@+id/navigation_ebook"
+                android:icon="@drawable/ic_ebook"
+                android:title="Ebook" />
+
+            <item
+                android:id="@+id/navigation_notification"
+                android:icon="@drawable/ic_notification"
+                android:title="Notification" />
+
+<!--            <item-->
+<!--                android:id="@+id/navigation_quiz"-->
+<!--                android:icon="@drawable/ic_quiz"-->
+<!--                android:title="MCQ Test" />-->
+
+            <item
+                android:id="@+id/navigation_attendanceStu"
+                android:icon="@drawable/ic_calendar"
+                android:title="Attendance" />
+
+            <item
+                android:id="@+id/navigation_testResult"
+                android:icon="@drawable/ic_results"
+                android:title="Test Result" />
+        </menu>
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/navigation_attendance"
+                android:icon="@drawable/ic_admin"
+                android:title="Admin" />
+        </menu>
+    </item>
+
+    <item android:title="Other Events">
+
+        <menu>
+
+            <item
+                android:id="@+id/navigation_website"
+                android:icon="@drawable/ic_website"
+                android:title="Website" />
+
+            <item
+                android:id="@+id/navigation_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us" />
+
+
+            <item
+                android:id="@+id/navigation_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/navigation_rate"
+                android:icon="@drawable/ic_rating"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/navigation_developer"
+                android:icon="@drawable/ic_developer"
+                android:title="Developer" />
+
+            <item
+                android:id="@+id/navigation_theme"
+                android:icon="@drawable/ic_color"
+                android:title="Themes" />
+
+            <item
+                android:id="@+id/navigation_privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy Policy" />
+
+            <item
+                android:id="@+id/navigation_sms"
+                android:icon="@drawable/ic_sms"
+                android:title="Review" />
+
+            <item
+                android:id="@+id/navigation_read"
+                android:icon="@drawable/ic_sms"
+                android:title="Read SMS"/>
+
+            <item
+                android:id="@+id/navigation_logout"
+                android:icon="@drawable/ic_out"
+                android:title="Logout" />
+        </menu>
+
+    </item>
+
+</menu>

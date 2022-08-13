@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FFEB3B</color>
+
+    <color name="drawer_bg">#FFEB3B</color>
+    <color name="drawer_font">#FF9800</color>
+
+    <color name="textColor">#35332E</color>
+    <color name="titleColor">#1b272c</color>
+    <color name="darkColor">#313131</color>
+    <color name="grey">#828080</color>
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#d6d6d6</color>
+    <color name="background">#fff</color>
+    <color name="background1">#FBE489</color>
+
+    <color name="present">#B2FF59</color>
+    <color name="absent">#FF8A80</color>
+    <color name="normal">#FAF9F6</color>
+
+    <color name="red">#F80937</color>
+
+</resources>
